@@ -1,13 +1,41 @@
+/* @import url('') */
+
+
 :root {
-    --cor-de-fundo: #944747;
-}
-
-body{
-
+    --cor-de-fundo: #aeadb5;
+    --verde:#1ad70d;
+    --branco:#ffffff;
+    --botao-ativo: #0a7adcf9;
+    --botao-inativo: rgba(31, 16, 200, 0.885);
+    --texto-fundo: rgba(0, 0, 0, 0.913);
+    }
     
-        background-color: var(--cor-de-fundo);
-        color: var(--branco);
-        font-family: 'chakra petch', sans-serif;
-    
-
-}
+    body
+    {
+    background-color:var(--cor-de-fundo);
+     color: var(--branco);
+     font-family: 'lobster', sans-serif;
+    }
+ .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: 1200x;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .botao {
+    font-family: "Lobster", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    align-items: center;
+    width: 100%;
+ }
+ .titulo-principal{
+   text-align: left;
+   width: 100%;
+   font-size: 32px;
+ }
